@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anis Amar & Partners Law Office</title>
-    <meta name="description" content="Anis Amar & Partners Law Office — Advocate dan Konsultan Hukum Terpercaya di Tangerang Selatan. Integrity, Professional, Trusted.">
-    <meta name="keywords" content="pengacara tangerang selatan, advokat tangsel, konsultan hukum, anis amar, law office tangsel, PERADI">
+    <title>Anis Amar & Partners Law Firm</title>
+    <meta name="description"
+        content="Anis Amar & Partners Law Firm — Advocate dan Konsultan Hukum Terpercaya di Tangerang Selatan. Integrity, Professional, Trusted.">
+    <meta name="keywords"
+        content="pengacara tangerang selatan, advokat tangsel, konsultan hukum, anis amar, law firm tangsel, PERADI">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400&family=Nunito:wght@400;600;700&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400&family=Nunito:wght@400;600;700&family=Rubik:wght@400;500;600&display=swap"
+        rel="stylesheet">
 
     <!-- Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -24,631 +29,746 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
 
-<!-- Spinner -->
-<div id="spinner" class="show position-fixed w-100 vh-100 top-0 start-0 d-flex align-items-center justify-content-center" style="background:#fff;z-index:99999;">
-    <div class="spinner-box"></div>
-</div>
+    <!-- Spinner -->
+    <div id="spinner"
+        class="show position-fixed w-100 vh-100 top-0 start-0 d-flex align-items-center justify-content-center"
+        style="background:#fff;z-index:99999;">
+        <div class="spinner-box"></div>
+    </div>
 
-<!-- WhatsApp Float -->
-<a href="https://wa.me/6288219472663" class="wa-float" target="_blank" title="Chat WhatsApp">
-    <i class="fab fa-whatsapp"></i>
-</a>
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/6288219472663" class="wa-float" target="_blank" title="Chat WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
-<!-- Back to Top -->
-<a href="#home" class="back-top" id="backTop"><i class="bi bi-arrow-up"></i></a>
+    <!-- Back to Top -->
+    <a href="#home" class="back-top" id="backTop"><i class="bi bi-arrow-up"></i></a>
 
-<!-- ======= TOPBAR ======= -->
-<div id="topbar" class="d-none d-lg-block py-2">
-    <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-            <div class="d-flex gap-4">
-                <small class="text-secondary">
-                    <i class="fa fa-map-marker-alt me-1" style="color:var(--gold)"></i>
-                    Jl. Ampera Poncol RT 07/02, Kel. Babakan, Kec. Setu, Kota Tangsel 15315
-                </small>
-                <small class="text-secondary">
-                    <i class="fab fa-whatsapp me-1" style="color:var(--gold)"></i>
-                    088219472663
-                </small>
-            </div>
-            <div class="d-flex align-items-center gap-2">
-                <button class="lang-btn active" id="btn-id" onclick="setLang('id')">🇮🇩 ID</button>
-                <button class="lang-btn" id="btn-en" onclick="setLang('en')">🇬🇧 EN</button>
+    <!-- ======= TOPBAR ======= -->
+    <div id="topbar" class="d-none d-lg-block py-2">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex gap-4">
+                    <small class="text-secondary">
+                        <i class="fa fa-map-marker-alt me-1" style="color:var(--gold)"></i>
+                        Jl. Ampera Poncol RT 07/02, Kel. Babakan, Kec. Setu, Kota Tangsel 15315
+                    </small>
+                    <small class="text-secondary">
+                        <i class="fab fa-whatsapp me-1" style="color:var(--gold)"></i>
+                        088219472663
+                    </small>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <button class="lang-btn active" id="btn-id" onclick="setLang('id')">🇮🇩 ID</button>
+                    <button class="lang-btn" id="btn-en" onclick="setLang('en')">🇬🇧 EN</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- ======= NAVBAR ======= -->
-<nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-        <a href="#home" class="navbar-brand d-flex align-items-center gap-2">
-            <img src="img/logo.png" alt="AA Logo">
-            <div class="brand-text">
-                <div class="brand-name">ANIS AMAR <span style="color:#fff">&amp; PARTNERS</span></div>
-                <div class="brand-sub">Law Office</div>
-            </div>
-        </a>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-            <i class="fa fa-bars" style="color:var(--gold)"></i>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
-            <ul class="navbar-nav align-items-center gap-1 mt-3 mt-lg-0">
-                <li class="nav-item"><a href="#home"        class="nav-link-custom active"><span data-lang="id" class="on">Beranda</span><span data-lang="en">Home</span></a></li>
-                <li class="nav-item"><a href="#about"       class="nav-link-custom"><span data-lang="id" class="on">Tentang</span><span data-lang="en">About</span></a></li>
-                <li class="nav-item"><a href="#services"    class="nav-link-custom"><span data-lang="id" class="on">Layanan</span><span data-lang="en">Services</span></a></li>
-                <li class="nav-item"><a href="#attorney"    class="nav-link-custom"><span data-lang="id" class="on">Advokat</span><span data-lang="en">Attorney</span></a></li>
-                <li class="nav-item"><a href="#testimonial" class="nav-link-custom"><span data-lang="id" class="on">Testimoni</span><span data-lang="en">Testimonials</span></a></li>
-                <li class="nav-item"><a href="#contact"     class="nav-link-custom"><span data-lang="id" class="on">Kontak</span><span data-lang="en">Contact</span></a></li>
-                <li class="nav-item ms-lg-2">
-                    <a href="#contact" class="btn btn-gold px-4 py-2" style="font-size:13px;">
-                        <span data-lang="id" class="on">Konsultasi Gratis</span><span data-lang="en">Free Consultation</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<!-- ======= HERO ======= -->
-<section id="home">
-    <div class="container">
-        <div class="row align-items-center min-vh-100 py-5">
-            <!-- Left: Text -->
-            <div class="col-lg-7 pt-5 pt-lg-0 wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="hero-badge">Integrity &bull; Professional &bull; Trusted</div>
-                <h1 class="hero-title">
-                    <span data-lang="id" class="on">Solusi Hukum <span>Terpercaya</span><br>untuk Anda</span>
-                    <span data-lang="en">Trusted <span>Legal Solutions</span><br>for You</span>
-                </h1>
-                <p class="hero-sub mb-4">
-                    <span data-lang="id" class="on">Anis Amar & Partners Law Office hadir memberikan layanan advokat dan konsultasi hukum profesional di Tangerang Selatan dan sekitarnya.</span>
-                    <span data-lang="en">Anis Amar & Partners Law Office provides professional advocate and legal consultation services in South Tangerang and surrounding areas.</span>
-                </p>
-                <div class="d-flex flex-wrap gap-3 mb-5">
-                    <a href="#contact" class="btn btn-gold py-3 px-5">
-                        <i class="fab fa-whatsapp me-2"></i>
-                        <span data-lang="id" class="on">Konsultasi Gratis</span><span data-lang="en">Free Consultation</span>
-                    </a>
-                    <a href="#services" class="btn btn-outline-white py-3 px-5">
-                        <span data-lang="id" class="on">Lihat Layanan</span><span data-lang="en">Our Services</span>
-                    </a>
+    <!-- ======= NAVBAR ======= -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a href="#home" class="navbar-brand d-flex align-items-center gap-2">
+                <img src="img/logo.png" alt="AA Logo">
+                <div class="brand-text">
+                    <div class="brand-name">ANIS AMAR <span style="color:#fff">&amp; PARTNERS</span></div>
+                    <div class="brand-sub">Law Firm</div>
                 </div>
-                <!-- Quick stats inline -->
-                <div class="d-flex flex-wrap gap-4">
-                    <div>
-                        <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:800;color:var(--gold);">100+</div>
-                        <div style="font-size:12px;color:#aaa;text-transform:uppercase;letter-spacing:1px;">
-                            <span data-lang="id" class="on">Kasus Ditangani</span><span data-lang="en">Cases Handled</span>
-                        </div>
-                    </div>
-                    <div style="width:1px;background:rgba(201,168,76,.3)"></div>
-                    <div>
-                        <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:800;color:var(--gold);">PERADI</div>
-                        <div style="font-size:12px;color:#aaa;text-transform:uppercase;letter-spacing:1px;">
-                            <span data-lang="id" class="on">Berlisensi Resmi</span><span data-lang="en">Officially Licensed</span>
-                        </div>
-                    </div>
-                    <div style="width:1px;background:rgba(201,168,76,.3)"></div>
-                    <div>
-                        <div style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:800;color:var(--gold);">24/7</div>
-                        <div style="font-size:12px;color:#aaa;text-transform:uppercase;letter-spacing:1px;">
-                            <span data-lang="id" class="on">Siap Membantu</span><span data-lang="en">Ready to Help</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Right: Logo -->
-            <div class="col-lg-5 text-center mt-5 mt-lg-0 wow fadeInRight" data-wow-delay="0.4s">
-                <img src="img/logo.png" alt="Anis Amar Logo" class="hero-logo">
-                <div class="hero-divider mt-4"></div>
-                <p class="mt-3" style="color:rgba(255,255,255,.5);font-size:13px;letter-spacing:2px;text-transform:uppercase;">
-                    Anis Tassya R., S.H., M.H.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ======= ABOUT ======= -->
-<section id="about" class="py-5">
-    <div class="container py-4">
-        <div class="row g-5 align-items-center">
-            <!-- Image -->
-            <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="about-img-wrap">
-                    <img src="img/about.jpg" alt="Kantor Anis Amar">
-                    <div class="about-badge-box">
-                        <h3>AA</h3>
-                        <p>
-                            <span data-lang="id" class="on">Advokat & Konsultan Hukum</span>
-                            <span data-lang="en">Advocate & Legal Consultant</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Text -->
-            <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.3s">
-                <div class="section-badge">
-                    <span data-lang="id" class="on">Tentang Kami</span><span data-lang="en">About Us</span>
-                </div>
-                <h2 class="mb-2">
-                    <span data-lang="id" class="on">Kantor Hukum Profesional di Tangerang Selatan</span>
-                    <span data-lang="en">Professional Law Office in South Tangerang</span>
-                </h2>
-                <div class="section-title-line"></div>
-                <p class="text-muted mb-3">
-                    <span data-lang="id" class="on"><strong>Anis Amar & Partners Law Office</strong> adalah kantor advokat dan konsultan hukum yang berkomitmen memberikan layanan hukum berkualitas tinggi dengan pendekatan personal, profesional, dan berintegritas tinggi.</span>
-                    <span data-lang="en"><strong>Anis Amar & Partners Law Office</strong> is an advocate and legal consultant office committed to providing high-quality legal services with a personal, professional, and high-integrity approach.</span>
-                </p>
-                <p class="text-muted mb-4">
-                    <span data-lang="id" class="on">Dipimpin langsung oleh <strong>Anis Tassya R., S.H., M.H.</strong>, kantor kami melayani klien dalam berbagai bidang hukum — mulai dari perdata, pidana, bisnis, hingga ketenagakerjaan — dengan menjunjung tinggi kerahasiaan dan kepercayaan klien.</span>
-                    <span data-lang="en">Led directly by <strong>Anis Tassya R., S.H., M.H.</strong>, our office serves clients in various areas of law — from civil, criminal, business, to employment law — while upholding client confidentiality and trust.</span>
-                </p>
-                <ul class="check-list mb-4">
-                    <li><i class="fa fa-check-circle"></i>
-                        <span data-lang="id" class="on">Konsultasi awal 100% gratis dan konfidensial</span>
-                        <span data-lang="en">Initial consultation 100% free and confidential</span>
-                    </li>
-                    <li><i class="fa fa-check-circle"></i>
-                        <span data-lang="id" class="on">Terdaftar resmi di PERADI (Perhimpunan Advokat Indonesia)</span>
-                        <span data-lang="en">Officially registered with PERADI (Indonesian Advocates Association)</span>
-                    </li>
-                    <li><i class="fa fa-check-circle"></i>
-                        <span data-lang="id" class="on">Pendampingan hukum di seluruh wilayah Tangerang Selatan & sekitarnya</span>
-                        <span data-lang="en">Legal assistance throughout South Tangerang & surrounding areas</span>
-                    </li>
-                    <li><i class="fa fa-check-circle"></i>
-                        <span data-lang="id" class="on">Solusi hukum yang strategis, terukur, dan transparan</span>
-                        <span data-lang="en">Strategic, measurable, and transparent legal solutions</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <i class="fa fa-bars" style="color:var(--gold)"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                <ul class="navbar-nav align-items-center gap-1 mt-3 mt-lg-0">
+                    <li class="nav-item"><a href="#home" class="nav-link-custom active"><span data-lang="id"
+                                class="on">Beranda</span><span data-lang="en">Home</span></a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link-custom"><span data-lang="id"
+                                class="on">Tentang</span><span data-lang="en">About</span></a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link-custom"><span data-lang="id"
+                                class="on">Layanan</span><span data-lang="en">Services</span></a></li>
+                    <li class="nav-item"><a href="#attorney" class="nav-link-custom"><span data-lang="id"
+                                class="on">Advokat</span><span data-lang="en">Attorney</span></a></li>
+                    <li class="nav-item"><a href="#testimonial" class="nav-link-custom"><span data-lang="id"
+                                class="on">Testimoni</span><span data-lang="en">Testimonials</span></a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link-custom"><span data-lang="id"
+                                class="on">Kontak</span><span data-lang="en">Contact</span></a></li>
+                    <li class="nav-item ms-lg-2">
+                        <a href="#contact" class="btn btn-gold px-4 py-2" style="font-size:13px;">
+                            <span data-lang="id" class="on">Konsultasi Gratis</span><span data-lang="en">Free
+                                Consultation</span>
+                        </a>
                     </li>
                 </ul>
-                <div class="peradi-badge mb-4">
-                    <i class="fa fa-id-badge fa-lg" style="color:var(--gold)"></i>
-                    <div>
-                        <div style="font-weight:700;font-size:14px;">PERADI</div>
-                        <div style="font-size:12px;color:#888;">
-                            <span data-lang="id" class="on">Anggota Resmi Perhimpunan Advokat Indonesia</span>
-                            <span data-lang="en">Official Member of Indonesian Advocates Association</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ======= HERO ======= -->
+    <section id="home">
+        <div class="container">
+            <div class="row align-items-center min-vh-100 py-5">
+                <!-- Left: Text -->
+                <div class="col-lg-7 pt-5 pt-lg-0 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="hero-badge">Integrity &bull; Professionalism &bull; Excellence &bull; Trust</div>
+                    <h1 class="hero-title">
+                        <span data-lang="id" class="on">Solusi Hukum <span>Terpercaya</span><br>untuk Anda</span>
+                        <span data-lang="en">Trusted <span>Legal Solutions</span><br>for You</span>
+                    </h1>
+                    <p class="hero-sub mb-4">
+                        <span data-lang="id" class="on">Anis Amar & Partners Law Firm hadir memberikan layanan advokat
+                            dan konsultasi hukum profesional di Tangerang Selatan dan sekitarnya.</span>
+                        <span data-lang="en">Anis Amar & Partners Law Firm provides professional advocate and legal
+                            consultation services in South Tangerang and surrounding areas.</span>
+                    </p>
+                    <div class="d-flex flex-wrap gap-3 mb-5">
+                        <a href="#contact" class="btn btn-gold py-3 px-5">
+                            <i class="fab fa-whatsapp me-2"></i>
+                            <span data-lang="id" class="on">Konsultasi Gratis</span><span data-lang="en">Free
+                                Consultation</span>
+                        </a>
+                        <a href="#services" class="btn btn-outline-white py-3 px-5">
+                            <span data-lang="id" class="on">Lihat Layanan</span><span data-lang="en">Our Services</span>
+                        </a>
+                    </div>
+                    <!-- Quick stats inline -->
+                    <div class="d-flex flex-wrap gap-4">
+                        <div>
+                            <div
+                                style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:800;color:var(--gold);">
+                                100+</div>
+                            <div style="font-size:12px;color:#aaa;text-transform:uppercase;letter-spacing:1px;">
+                                <span data-lang="id" class="on">Kasus Ditangani</span><span data-lang="en">Cases
+                                    Handled</span>
+                            </div>
+                        </div>
+                        <div style="width:1px;background:rgba(201,168,76,.3)"></div>
+                        <div>
+                            <div
+                                style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:800;color:var(--gold);">
+                                PERADI</div>
+                            <div style="font-size:12px;color:#aaa;text-transform:uppercase;letter-spacing:1px;">
+                                <span data-lang="id" class="on">Berlisensi Resmi</span><span data-lang="en">Officially
+                                    Licensed</span>
+                            </div>
+                        </div>
+                        <div style="width:1px;background:rgba(201,168,76,.3)"></div>
+                        <div>
+                            <div
+                                style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:800;color:var(--gold);">
+                                24/7</div>
+                            <div style="font-size:12px;color:#aaa;text-transform:uppercase;letter-spacing:1px;">
+                                <span data-lang="id" class="on">Siap Membantu</span><span data-lang="en">Ready to
+                                    Help</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <a href="https://wa.me/6288219472663" class="btn btn-gold py-3 px-5" target="_blank">
-                    <i class="fab fa-whatsapp me-2"></i>
-                    <span data-lang="id" class="on">Hubungi Kami</span><span data-lang="en">Contact Us</span>
-                </a>
+                <!-- Right: Logo -->
+                <div class="col-lg-5 text-center mt-5 mt-lg-0 wow fadeInRight" data-wow-delay="0.4s">
+                    <img src="img/logo.png" alt="Anis Amar Logo" class="hero-logo">
+                    <div class="hero-divider mt-4"></div>
+                    <p class="mt-3"
+                        style="color:rgba(255,255,255,.5);font-size:13px;letter-spacing:2px;text-transform:uppercase;">
+                        Anis Tassya R., S.H., M.H.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ======= SERVICES ======= -->
-<section id="services" class="py-5">
-    <div class="container py-4">
-        <div class="text-center mb-5 wow fadeInUp">
-            <div class="section-badge">
-                <span data-lang="id" class="on">Bidang Praktik</span><span data-lang="en">Practice Areas</span>
-            </div>
-            <h2>
-                <span data-lang="id" class="on">Layanan Hukum Kami</span>
-                <span data-lang="en">Our Legal Services</span>
-            </h2>
-            <div class="section-title-line center"></div>
-            <p class="text-muted mx-auto" style="max-width:560px;">
-                <span data-lang="id" class="on">Kami menangani berbagai bidang hukum dengan pendekatan profesional dan solusi yang tepat untuk setiap klien.</span>
-                <span data-lang="en">We handle various areas of law with a professional approach and the right solution for each client.</span>
-            </p>
-        </div>
-        <div class="row g-4">
-            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa fa-gavel"></i></div>
-                    <h5><span data-lang="id" class="on">Hukum Perdata</span><span data-lang="en">Civil Law</span></h5>
-                    <p><span data-lang="id" class="on">Penyelesaian sengketa perdata, wanprestasi, perbuatan melawan hukum, dan gugatan keperdataan lainnya.</span><span data-lang="en">Civil dispute resolution, breach of contract, unlawful acts, and other civil claims.</span></p>
+    <!-- ======= ABOUT ======= -->
+    <section id="about" class="py-5">
+        <div class="container py-4">
+            <div class="row g-5 align-items-center">
+                <!-- Image -->
+                <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="about-img-wrap">
+                        <img src="img/about.jpg" alt="Kantor Anis Amar">
+                        <div class="about-badge-box">
+                            <h3>AA</h3>
+                            <p>
+                                <span data-lang="id" class="on">Advokat & Konsultan Hukum</span>
+                                <span data-lang="en">Advocate & Legal Consultant</span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.2s">
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa fa-shield-alt"></i></div>
-                    <h5><span data-lang="id" class="on">Hukum Pidana</span><span data-lang="en">Criminal Law</span></h5>
-                    <p><span data-lang="id" class="on">Pendampingan dan pembelaan dalam perkara pidana umum maupun pidana khusus di semua tingkat pengadilan.</span><span data-lang="en">Assistance and defense in general and special criminal cases at all court levels.</span></p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa fa-building"></i></div>
-                    <h5><span data-lang="id" class="on">Hukum Bisnis</span><span data-lang="en">Business Law</span></h5>
-                    <p><span data-lang="id" class="on">Kontrak bisnis, pendirian usaha, sengketa kemitraan, dan kepatuhan regulasi korporasi.</span><span data-lang="en">Business contracts, business establishment, partnership disputes, and corporate regulatory compliance.</span></p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.4s">
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa fa-home"></i></div>
-                    <h5><span data-lang="id" class="on">Hukum Properti & Tanah</span><span data-lang="en">Property & Land Law</span></h5>
-                    <p><span data-lang="id" class="on">Sengketa tanah, sertifikasi, jual beli properti, balik nama, dan perizinan bangunan.</span><span data-lang="en">Land disputes, certification, property sale & purchase, title transfer, and building permits.</span></p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.5s">
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa fa-users"></i></div>
-                    <h5><span data-lang="id" class="on">Hukum Ketenagakerjaan</span><span data-lang="en">Employment Law</span></h5>
-                    <p><span data-lang="id" class="on">PHK, hubungan industrial, kontrak kerja, dan penyelesaian sengketa ketenagakerjaan melalui mediasi atau pengadilan.</span><span data-lang="en">Termination, industrial relations, employment contracts, and labor dispute resolution through mediation or court.</span></p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                <div class="service-cta">
-                    <div class="service-icon"><i class="fab fa-whatsapp"></i></div>
-                    <h5><span data-lang="id" class="on">Konsultasi Sekarang</span><span data-lang="en">Consult Now</span></h5>
-                    <p><span data-lang="id" class="on">Tidak ada masalah hukum yang terlalu kecil atau terlalu besar. Konsultasi pertama GRATIS.</span><span data-lang="en">No legal problem is too small or too large. First consultation is FREE.</span></p>
-                    <h4>088219472663</h4>
-                    <a href="https://wa.me/6288219472663" class="btn btn-gold mt-2 px-4 py-2" target="_blank">
-                        <span data-lang="id" class="on">Chat WhatsApp</span><span data-lang="en">Chat WhatsApp</span>
+                <!-- Text -->
+                <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="section-badge">
+                        <span data-lang="id" class="on">Tentang Kami</span><span data-lang="en">About Us</span>
+                    </div>
+                    <h2 class="mb-2">
+                        <span data-lang="id" class="on">Kantor Hukum Profesional di Tangerang Selatan</span>
+                        <span data-lang="en">Professional Law Firm in South Tangerang</span>
+                    </h2>
+                    <div class="section-title-line"></div>
+                    <p class="text-muted mb-3">
+                        <span data-lang="id" class="on"><strong>Anis Amar & Partners Law Firm</strong> adalah kantor
+                            advokat dan konsultan hukum yang berkomitmen memberikan layanan hukum berkualitas tinggi
+                            dengan pendekatan personal, profesional, dan berintegritas tinggi.</span>
+                        <span data-lang="en"><strong>Anis Amar & Partners Law Firm</strong> is an advocate and legal
+                            consultant office committed to providing high-quality legal services with a personal,
+                            professional, and high-integrity approach.</span>
+                    </p>
+                    <p class="text-muted mb-4">
+                        <span data-lang="id" class="on">Dipimpin langsung oleh <strong>Anis Tassya R., S.H.,
+                                M.H.</strong>, kantor kami melayani klien dalam berbagai bidang hukum — mulai dari
+                            perdata, pidana, bisnis, hingga ketenagakerjaan — dengan menjunjung tinggi kerahasiaan dan
+                            kepercayaan klien.</span>
+                        <span data-lang="en">Led directly by <strong>Anis Tassya R., S.H., M.H.</strong>, our office
+                            serves clients in various areas of law — from civil, criminal, business, to employment law —
+                            while upholding client confidentiality and trust.</span>
+                    </p>
+                    <ul class="check-list mb-4">
+                        <li><i class="fa fa-check-circle"></i>
+                            <span data-lang="id" class="on">Konsultasi awal 100% gratis dan konfidensial</span>
+                            <span data-lang="en">Initial consultation 100% free and confidential</span>
+                        </li>
+                        <li><i class="fa fa-check-circle"></i>
+                            <span data-lang="id" class="on">Terdaftar resmi di PERADI (Perhimpunan Advokat
+                                Indonesia)</span>
+                            <span data-lang="en">Officially registered with PERADI (Indonesian Advocates
+                                Association)</span>
+                        </li>
+                        <li><i class="fa fa-check-circle"></i>
+                            <span data-lang="id" class="on">Pendampingan hukum di seluruh wilayah Tangerang Selatan &
+                                sekitarnya</span>
+                            <span data-lang="en">Legal assistance throughout South Tangerang & surrounding areas</span>
+                        </li>
+                        <li><i class="fa fa-check-circle"></i>
+                            <span data-lang="id" class="on">Solusi hukum yang strategis, terukur, dan transparan</span>
+                            <span data-lang="en">Strategic, measurable, and transparent legal solutions</span>
+                        </li>
+                    </ul>
+                    <div class="peradi-badge mb-4">
+                        <i class="fa fa-id-badge fa-lg" style="color:var(--gold)"></i>
+                        <div>
+                            <div style="font-weight:700;font-size:14px;">PERADI</div>
+                            <div style="font-size:12px;color:#888;">
+                                <span data-lang="id" class="on">Anggota Resmi Perhimpunan Advokat Indonesia</span>
+                                <span data-lang="en">Official Member of Indonesian Advocates Association</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/6288219472663" class="btn btn-gold py-3 px-5" target="_blank">
+                        <i class="fab fa-whatsapp me-2"></i>
+                        <span data-lang="id" class="on">Hubungi Kami</span><span data-lang="en">Contact Us</span>
                     </a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ======= ATTORNEY ======= -->
-<section id="attorney" class="py-5">
-    <div class="container py-4">
-        <div class="row g-5 align-items-center">
-            <!-- Photo -->
-            <div class="col-lg-4 wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="attorney-photo-wrap">
-                    <img src="img/team-1.jpg" alt="Anis Tassya R., S.H., M.H.">
+    <!-- ======= SERVICES ======= -->
+    <section id="services" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5 wow fadeInUp">
+                <div class="section-badge">
+                    <span data-lang="id" class="on">Bidang Praktik</span><span data-lang="en">Practice Areas</span>
+                </div>
+                <h2>
+                    <span data-lang="id" class="on">Layanan Hukum Kami</span>
+                    <span data-lang="en">Our Legal Services</span>
+                </h2>
+                <div class="section-title-line center"></div>
+                <p class="text-muted mx-auto" style="max-width:560px;">
+                    <span data-lang="id" class="on">Kami menangani berbagai bidang hukum dengan pendekatan profesional
+                        dan solusi yang tepat untuk setiap klien.</span>
+                    <span data-lang="en">We handle various areas of law with a professional approach and the right
+                        solution for each client.</span>
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa fa-gavel"></i></div>
+                        <h5><span data-lang="id" class="on">Hukum Perdata</span><span data-lang="en">Civil Law</span>
+                        </h5>
+                        <p><span data-lang="id" class="on">Penyelesaian sengketa perdata, wanprestasi, perbuatan melawan
+                                hukum, dan gugatan keperdataan lainnya.</span><span data-lang="en">Civil dispute
+                                resolution, breach of contract, unlawful acts, and other civil claims.</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.2s">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa fa-shield-alt"></i></div>
+                        <h5><span data-lang="id" class="on">Hukum Pidana</span><span data-lang="en">Criminal Law</span>
+                        </h5>
+                        <p><span data-lang="id" class="on">Pendampingan dan pembelaan dalam perkara pidana umum maupun
+                                pidana khusus di semua tingkat pengadilan.</span><span data-lang="en">Assistance and
+                                defense in general and special criminal cases at all court levels.</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa fa-building"></i></div>
+                        <h5><span data-lang="id" class="on">Hukum Bisnis</span><span data-lang="en">Business Law</span>
+                        </h5>
+                        <p><span data-lang="id" class="on">Kontrak bisnis, pendirian usaha, sengketa kemitraan, dan
+                                kepatuhan regulasi korporasi.</span><span data-lang="en">Business contracts, business
+                                establishment, partnership disputes, and corporate regulatory compliance.</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.4s">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa fa-home"></i></div>
+                        <h5><span data-lang="id" class="on">Hukum Properti & Tanah</span><span data-lang="en">Property &
+                                Land Law</span></h5>
+                        <p><span data-lang="id" class="on">Sengketa tanah, sertifikasi, jual beli properti, balik nama,
+                                dan perizinan bangunan.</span><span data-lang="en">Land disputes, certification,
+                                property sale & purchase, title transfer, and building permits.</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.5s">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa fa-users"></i></div>
+                        <h5><span data-lang="id" class="on">Hukum Ketenagakerjaan</span><span data-lang="en">Employment
+                                Law</span></h5>
+                        <p><span data-lang="id" class="on">PHK, hubungan industrial, kontrak kerja, dan penyelesaian
+                                sengketa ketenagakerjaan melalui mediasi atau pengadilan.</span><span
+                                data-lang="en">Termination, industrial relations, employment contracts, and labor
+                                dispute resolution through mediation or court.</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-cta">
+                        <div class="service-icon"><i class="fab fa-whatsapp"></i></div>
+                        <h5><span data-lang="id" class="on">Konsultasi Sekarang</span><span data-lang="en">Consult
+                                Now</span></h5>
+                        <p><span data-lang="id" class="on">Tidak ada masalah hukum yang terlalu kecil atau terlalu
+                                besar. Konsultasi pertama GRATIS.</span><span data-lang="en">No legal problem is too
+                                small or too large. First consultation is FREE.</span></p>
+                        <h4>088219472663</h4>
+                        <a href="https://wa.me/6288219472663" class="btn btn-gold mt-2 px-4 py-2" target="_blank">
+                            <span data-lang="id" class="on">Chat WhatsApp</span><span data-lang="en">Chat
+                                WhatsApp</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <!-- Detail -->
-            <div class="col-lg-8 wow fadeInRight" data-wow-delay="0.3s">
-                <div class="section-badge">
-                    <span data-lang="id" class="on">Advokat Kami</span><span data-lang="en">Our Attorney</span>
-                </div>
-                <h2 class="mb-0">Anis Tassya R.</h2>
-                <p style="color:var(--gold);font-weight:700;letter-spacing:1px;margin-bottom:4px;">S.H., M.H.</p>
-                <p class="text-muted mb-1" style="font-size:14px;text-transform:uppercase;letter-spacing:1px;">
-                    <span data-lang="id" class="on">Pendiri — Advocate & Konsultan Hukum</span>
-                    <span data-lang="en">Founder — Advocate & Legal Consultant</span>
-                </p>
-                <div class="section-title-line"></div>
-                <p class="text-muted mb-4">
-                    <span data-lang="id" class="on">Anis Tassya R., S.H., M.H. adalah advokat dan konsultan hukum profesional yang terdaftar resmi di <strong>PERADI</strong>. Berpengalaman dalam penanganan berbagai perkara hukum perdata, pidana, bisnis, dan ketenagakerjaan, beliau berkomitmen untuk memberikan pendampingan hukum yang terbaik bagi setiap klien dengan pendekatan yang personal dan berintegritas tinggi.</span>
-                    <span data-lang="en">Anis Tassya R., S.H., M.H. is a professional advocate and legal consultant officially registered with <strong>PERADI</strong>. Experienced in handling various civil, criminal, business, and employment law cases, she is committed to providing the best legal assistance to every client with a personal and high-integrity approach.</span>
-                </p>
-                <!-- Credentials -->
-                <div class="row g-3 mb-4">
-                    <div class="col-sm-4">
-                        <div class="credential-box">
-                            <i class="fa fa-graduation-cap"></i>
-                            <h6>S.H.</h6>
-                            <small><span data-lang="id" class="on">Sarjana Hukum</span><span data-lang="en">Bachelor of Law</span></small>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="credential-box">
-                            <i class="fa fa-certificate"></i>
-                            <h6>M.H.</h6>
-                            <small><span data-lang="id" class="on">Magister Hukum</span><span data-lang="en">Master of Law</span></small>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="credential-box">
-                            <i class="fa fa-id-card"></i>
-                            <h6>PERADI</h6>
-                            <small><span data-lang="id" class="on">Lisensi Resmi</span><span data-lang="en">Official License</span></small>
-                        </div>
+        </div>
+    </section>
+
+    <!-- ======= ATTORNEY ======= -->
+    <section id="attorney" class="py-5">
+        <div class="container py-4">
+            <div class="row g-5 align-items-center">
+                <!-- Photo -->
+                <div class="col-lg-4 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="attorney-photo-wrap">
+                        <img src="img/team-1.jpg" alt="Anis Tassya R., S.H., M.H.">
                     </div>
                 </div>
-                <a href="https://wa.me/6288219472663" class="btn btn-gold py-3 px-5 me-3" target="_blank">
+                <!-- Detail -->
+                <div class="col-lg-8 wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="section-badge">
+                        <span data-lang="id" class="on">Advokat Kami</span><span data-lang="en">Our Attorney</span>
+                    </div>
+                    <h2 class="mb-0">Anis Tassya R.</h2>
+                    <p style="color:var(--gold);font-weight:700;letter-spacing:1px;margin-bottom:4px;">S.H., M.H.</p>
+                    <p class="text-muted mb-1" style="font-size:14px;text-transform:uppercase;letter-spacing:1px;">
+                        <span data-lang="id" class="on">Pendiri — Advocate & Konsultan Hukum</span>
+                        <span data-lang="en">Founder — Advocate & Legal Consultant</span>
+                    </p>
+                    <div class="section-title-line"></div>
+                    <p class="text-muted mb-4">
+                        <span data-lang="id" class="on">Anis Tassya R., S.H., M.H. adalah advokat dan konsultan hukum
+                            profesional yang terdaftar resmi di <strong>PERADI</strong>. Berpengalaman dalam penanganan
+                            berbagai perkara hukum perdata, pidana, bisnis, dan ketenagakerjaan, beliau berkomitmen
+                            untuk memberikan pendampingan hukum yang terbaik bagi setiap klien dengan pendekatan yang
+                            personal dan berintegritas tinggi.</span>
+                        <span data-lang="en">Anis Tassya R., S.H., M.H. is a professional advocate and legal consultant
+                            officially registered with <strong>PERADI</strong>. Experienced in handling various civil,
+                            criminal, business, and employment law cases, she is committed to providing the best legal
+                            assistance to every client with a personal and high-integrity approach.</span>
+                    </p>
+                    <!-- Credentials -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-4">
+                            <div class="credential-box">
+                                <i class="fa fa-graduation-cap"></i>
+                                <h6>S.H.</h6>
+                                <small><span data-lang="id" class="on">Sarjana Hukum</span><span data-lang="en">Bachelor
+                                        of Law</span></small>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="credential-box">
+                                <i class="fa fa-certificate"></i>
+                                <h6>M.H.</h6>
+                                <small><span data-lang="id" class="on">Magister Hukum</span><span data-lang="en">Master
+                                        of Law</span></small>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="credential-box">
+                                <i class="fa fa-id-card"></i>
+                                <h6>PERADI</h6>
+                                <small><span data-lang="id" class="on">Lisensi Resmi</span><span data-lang="en">Official
+                                        License</span></small>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/6288219472663" class="btn btn-gold py-3 px-5 me-3" target="_blank">
+                        <i class="fab fa-whatsapp me-2"></i>
+                        <span data-lang="id" class="on">Konsultasi Langsung</span><span data-lang="en">Direct
+                            Consultation</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= CTA ======= -->
+    <section id="cta" class="py-5">
+        <div class="container py-4 text-center wow fadeInUp">
+            <div class="section-badge" style="color:var(--gold);">
+                <span data-lang="id" class="on">Butuh Bantuan Hukum?</span><span data-lang="en">Need Legal Help?</span>
+            </div>
+            <h2 class="text-white mt-2 mb-3">
+                <span data-lang="id" class="on">Konsultasi Pertama Anda <span style="color:var(--gold)">100%
+                        Gratis</span></span>
+                <span data-lang="en">Your First Consultation is <span style="color:var(--gold)">100% Free</span></span>
+            </h2>
+            <p class="mb-4 mx-auto" style="color:#aaa;max-width:540px;">
+                <span data-lang="id" class="on">Jangan tunda masalah hukum Anda. Hubungi kami sekarang dan dapatkan
+                    solusi hukum terbaik dari advokat berpengalaman.</span>
+                <span data-lang="en">Don't delay your legal issues. Contact us now and get the best legal solutions from
+                    an experienced advocate.</span>
+            </p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <a href="https://wa.me/6288219472663" class="btn btn-gold py-3 px-5" target="_blank">
                     <i class="fab fa-whatsapp me-2"></i>
-                    <span data-lang="id" class="on">Konsultasi Langsung</span><span data-lang="en">Direct Consultation</span>
+                    <span data-lang="id" class="on">Chat Sekarang</span><span data-lang="en">Chat Now</span>
+                </a>
+                <a href="#contact" class="btn btn-outline-white py-3 px-5">
+                    <span data-lang="id" class="on">Kirim Pesan</span><span data-lang="en">Send Message</span>
                 </a>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ======= CTA ======= -->
-<section id="cta" class="py-5">
-    <div class="container py-4 text-center wow fadeInUp">
-        <div class="section-badge" style="color:var(--gold);">
-            <span data-lang="id" class="on">Butuh Bantuan Hukum?</span><span data-lang="en">Need Legal Help?</span>
-        </div>
-        <h2 class="text-white mt-2 mb-3">
-            <span data-lang="id" class="on">Konsultasi Pertama Anda <span style="color:var(--gold)">100% Gratis</span></span>
-            <span data-lang="en">Your First Consultation is <span style="color:var(--gold)">100% Free</span></span>
-        </h2>
-        <p class="mb-4 mx-auto" style="color:#aaa;max-width:540px;">
-            <span data-lang="id" class="on">Jangan tunda masalah hukum Anda. Hubungi kami sekarang dan dapatkan solusi hukum terbaik dari advokat berpengalaman.</span>
-            <span data-lang="en">Don't delay your legal issues. Contact us now and get the best legal solutions from an experienced advocate.</span>
-        </p>
-        <div class="d-flex justify-content-center gap-3 flex-wrap">
-            <a href="https://wa.me/6288219472663" class="btn btn-gold py-3 px-5" target="_blank">
-                <i class="fab fa-whatsapp me-2"></i>
-                <span data-lang="id" class="on">Chat Sekarang</span><span data-lang="en">Chat Now</span>
-            </a>
-            <a href="#contact" class="btn btn-outline-white py-3 px-5">
-                <span data-lang="id" class="on">Kirim Pesan</span><span data-lang="en">Send Message</span>
-            </a>
-        </div>
-    </div>
-</section>
-
-<!-- ======= TESTIMONIAL ======= -->
-<section id="testimonial" class="py-5">
-    <div class="container py-4">
-        <div class="text-center mb-5 wow fadeInUp">
-            <div class="section-badge">Testimonial</div>
-            <h2>
-                <span data-lang="id" class="on">Apa Kata Klien Kami</span>
-                <span data-lang="en">What Our Clients Say</span>
-            </h2>
-            <div class="section-title-line center"></div>
-        </div>
-        <div class="row g-4">
-            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-card">
-                    <div class="quote">"</div>
-                    <p><span data-lang="id" class="on">Penanganan kasus sengketa bisnis saya diselesaikan dengan cepat dan profesional. Sangat puas dengan layanan Anis Amar & Partners!</span><span data-lang="en">My business dispute case was resolved quickly and professionally. Very satisfied with Anis Amar & Partners' service!</span></p>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <img src="img/testimonial-1.jpg" alt="">
-                        <div>
-                            <h6>Budi Santoso</h6>
-                            <small><span data-lang="id" class="on">Pengusaha, Tangsel</span><span data-lang="en">Entrepreneur, Tangsel</span></small>
+    <!-- ======= TESTIMONIAL ======= -->
+    <section id="testimonial" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5 wow fadeInUp">
+                <div class="section-badge">Testimonial</div>
+                <h2>
+                    <span data-lang="id" class="on">Apa Kata Klien Kami</span>
+                    <span data-lang="en">What Our Clients Say</span>
+                </h2>
+                <div class="section-title-line center"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-card">
+                        <div class="quote">"</div>
+                        <p><span data-lang="id" class="on">Penanganan kasus sengketa bisnis saya diselesaikan dengan
+                                cepat dan profesional. Sangat puas dengan layanan Anis Amar & Partners!</span><span
+                                data-lang="en">My business dispute case was resolved quickly and professionally. Very
+                                satisfied with Anis Amar & Partners' service!</span></p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <img src="img/testimonial-1.jpg" alt="">
+                            <div>
+                                <h6>Budi Santoso</h6>
+                                <small><span data-lang="id" class="on">Pengusaha, Tangsel</span><span
+                                        data-lang="en">Entrepreneur, Tangsel</span></small>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="testimonial-card">
-                    <div class="quote">"</div>
-                    <p><span data-lang="id" class="on">Masalah ketenagakerjaan perusahaan kami ditangani dengan sangat kompeten dan responsif. Terima kasih Anis Tassya!</span><span data-lang="en">Our company's employment issues were handled very competently and responsively. Thank you Anis Tassya!</span></p>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <img src="img/testimonial-2.jpg" alt="">
-                        <div>
-                            <h6>Siti Rahayu</h6>
-                            <small><span data-lang="id" class="on">Manager HR, Tangsel</span><span data-lang="en">HR Manager, Tangsel</span></small>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="testimonial-card">
+                        <div class="quote">"</div>
+                        <p><span data-lang="id" class="on">Masalah ketenagakerjaan perusahaan kami ditangani dengan
+                                sangat kompeten dan responsif. Terima kasih Anis Tassya!</span><span data-lang="en">Our
+                                company's employment issues were handled very competently and responsively. Thank you
+                                Anis Tassya!</span></p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <img src="img/testimonial-2.jpg" alt="">
+                            <div>
+                                <h6>Siti Rahayu</h6>
+                                <small><span data-lang="id" class="on">Manager HR, Tangsel</span><span data-lang="en">HR
+                                        Manager, Tangsel</span></small>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="testimonial-card">
-                    <div class="quote">"</div>
-                    <p><span data-lang="id" class="on">Sengketa tanah keluarga kami akhirnya selesai berkat pendampingan profesional dari kantor ini. Sangat direkomendasikan!</span><span data-lang="en">Our family land dispute was finally resolved thanks to professional assistance from this office. Highly recommended!</span></p>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <img src="img/testimonial-3.jpg" alt="">
-                        <div>
-                            <h6>Ahmad Fauzi</h6>
-                            <small><span data-lang="id" class="on">Wiraswasta, Tangsel</span><span data-lang="en">Self-employed, Tangsel</span></small>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="testimonial-card">
+                        <div class="quote">"</div>
+                        <p><span data-lang="id" class="on">Sengketa tanah keluarga kami akhirnya selesai berkat
+                                pendampingan profesional dari kantor ini. Sangat direkomendasikan!</span><span
+                                data-lang="en">Our family land dispute was finally resolved thanks to professional
+                                assistance from this office. Highly recommended!</span></p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <img src="img/testimonial-3.jpg" alt="">
+                            <div>
+                                <h6>Ahmad Fauzi</h6>
+                                <small><span data-lang="id" class="on">Wiraswasta, Tangsel</span><span
+                                        data-lang="en">Self-employed, Tangsel</span></small>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ======= CONTACT ======= -->
-<section id="contact" class="py-5">
-    <div class="container py-4">
-        <div class="text-center mb-5 wow fadeInUp">
-            <div class="section-badge">
-                <span data-lang="id" class="on">Hubungi Kami</span><span data-lang="en">Contact Us</span>
+    <!-- ======= CONTACT ======= -->
+    <section id="contact" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5 wow fadeInUp">
+                <div class="section-badge">
+                    <span data-lang="id" class="on">Hubungi Kami</span><span data-lang="en">Contact Us</span>
+                </div>
+                <h2>
+                    <span data-lang="id" class="on">Ceritakan Masalah Hukum Anda</span>
+                    <span data-lang="en">Tell Us About Your Legal Issue</span>
+                </h2>
+                <div class="section-title-line center"></div>
             </div>
-            <h2>
-                <span data-lang="id" class="on">Ceritakan Masalah Hukum Anda</span>
-                <span data-lang="en">Tell Us About Your Legal Issue</span>
-            </h2>
-            <div class="section-title-line center"></div>
-        </div>
-        <div class="row g-5">
-            <!-- Info -->
-            <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
-                <p class="text-muted mb-4">
-                    <span data-lang="id" class="on">Kami menjamin kerahasiaan setiap informasi Anda. Konsultasi pertama gratis. Respon dalam 1x24 jam kerja.</span>
-                    <span data-lang="en">We guarantee the confidentiality of your information. First consultation is free. Response within 1x24 business hours.</span>
-                </p>
-                <div class="d-flex flex-column gap-3">
-                    <div class="contact-info-box">
-                        <i class="fa fa-map-marker-alt"></i>
-                        <div>
-                            <h6><span data-lang="id" class="on">Alamat</span><span data-lang="en">Address</span></h6>
-                            <p>Jl. Ampera Poncol RT 07/02, Kel. Babakan, Kec. Setu, Kota Tangerang Selatan 15315</p>
+            <div class="row g-5">
+                <!-- Info -->
+                <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                    <p class="text-muted mb-4">
+                        <span data-lang="id" class="on">Kami menjamin kerahasiaan setiap informasi Anda. Konsultasi
+                            pertama gratis. Respon dalam 1x24 jam kerja.</span>
+                        <span data-lang="en">We guarantee the confidentiality of your information. First consultation is
+                            free. Response within 1x24 business hours.</span>
+                    </p>
+                    <div class="d-flex flex-column gap-3">
+                        <div class="contact-info-box">
+                            <i class="fa fa-map-marker-alt"></i>
+                            <div>
+                                <h6><span data-lang="id" class="on">Alamat</span><span data-lang="en">Address</span>
+                                </h6>
+                                <p>Jl. Ampera Poncol RT 07/02, Kel. Babakan, Kec. Setu, Kota Tangerang Selatan 15315</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-info-box">
-                        <i class="fab fa-whatsapp"></i>
-                        <div>
-                            <h6>WhatsApp</h6>
-                            <a href="https://wa.me/6288219472663" target="_blank">088219472663</a>
+                        <div class="contact-info-box">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h6>WhatsApp</h6>
+                                <a href="https://wa.me/6288219472663" target="_blank">088219472663</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-info-box">
-                        <i class="bi bi-clock"></i>
-                        <div>
-                            <h6><span data-lang="id" class="on">Jam Operasional</span><span data-lang="en">Office Hours</span></h6>
-                            <p><span data-lang="id" class="on">Senin – Jumat: 08.00 – 17.00 WIB</span><span data-lang="en">Monday – Friday: 08.00 – 17.00 WIB</span></p>
+                        <div class="contact-info-box">
+                            <i class="bi bi-clock"></i>
+                            <div>
+                                <h6><span data-lang="id" class="on">Jam Operasional</span><span data-lang="en">Office
+                                        Hours</span></h6>
+                                <p><span data-lang="id" class="on">Senin – Jumat: 08.00 – 17.00 WIB</span><span
+                                        data-lang="en">Monday – Friday: 08.00 – 17.00 WIB</span></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-info-box">
-                        <i class="fa fa-id-badge"></i>
-                        <div>
-                            <h6>PERADI</h6>
-                            <p><span data-lang="id" class="on">Anggota Resmi Perhimpunan Advokat Indonesia</span><span data-lang="en">Official Member of Indonesian Advocates Association</span></p>
+                        <div class="contact-info-box">
+                            <i class="fa fa-id-badge"></i>
+                            <div>
+                                <h6>PERADI</h6>
+                                <p><span data-lang="id" class="on">Anggota Resmi Perhimpunan Advokat
+                                        Indonesia</span><span data-lang="en">Official Member of Indonesian Advocates
+                                        Association</span></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Form -->
-            <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.3s">
-                <div class="form-wrap">
-                    <h5 class="text-white mb-4">
-                        <span data-lang="id" class="on">Kirim Pesan</span><span data-lang="en">Send Message</span>
-                    </h5>
-                    <div class="row g-3">
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" placeholder="Nama Lengkap / Full Name">
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="tel" class="form-control" placeholder="No. HP / Phone">
-                        </div>
-                        <div class="col-12">
-                            <select class="form-select">
-                                <option selected disabled style="color:#777">
-                                    <span data-lang="id" class="on">Pilih Bidang Hukum</span><span data-lang="en">Select Practice Area</span>
-                                </option>
-                                <option>Hukum Perdata / Civil Law</option>
-                                <option>Hukum Pidana / Criminal Law</option>
-                                <option>Hukum Bisnis / Business Law</option>
-                                <option>Hukum Properti & Tanah / Property & Land Law</option>
-                                <option>Hukum Ketenagakerjaan / Employment Law</option>
-                                <option>Lainnya / Other</option>
-                            </select>
-                        </div>
-                        <div class="col-12">
-                            <textarea class="form-control" rows="5" placeholder="Ceritakan singkat masalah hukum Anda... / Briefly describe your legal issue..."></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button class="btn btn-gold w-100 py-3">
-                                <i class="fab fa-whatsapp me-2"></i>
-                                <span data-lang="id" class="on">Kirim via WhatsApp</span><span data-lang="en">Send via WhatsApp</span>
-                            </button>
-                        </div>
-                        <div class="col-12">
-                            <small style="color:#666;">
-                                <i class="fa fa-lock me-1" style="color:var(--gold)"></i>
-                                <span data-lang="id" class="on">Informasi Anda dijaga kerahasiaannya sepenuhnya.</span>
-                                <span data-lang="en">Your information is kept completely confidential.</span>
-                            </small>
+                <!-- Form -->
+                <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="form-wrap">
+                        <h5 class="text-white mb-4">
+                            <span data-lang="id" class="on">Kirim Pesan</span><span data-lang="en">Send Message</span>
+                        </h5>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="Nama Lengkap / Full Name">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="tel" class="form-control" placeholder="No. HP / Phone">
+                            </div>
+                            <div class="col-12">
+                                <select class="form-select">
+                                    <option selected disabled style="color:#777">
+                                        <span data-lang="id" class="on">Pilih Bidang Hukum</span><span
+                                            data-lang="en">Select Practice Area</span>
+                                    </option>
+                                    <option>Hukum Perdata / Civil Law</option>
+                                    <option>Hukum Pidana / Criminal Law</option>
+                                    <option>Hukum Bisnis / Business Law</option>
+                                    <option>Hukum Properti & Tanah / Property & Land Law</option>
+                                    <option>Hukum Ketenagakerjaan / Employment Law</option>
+                                    <option>Lainnya / Other</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5"
+                                    placeholder="Ceritakan singkat masalah hukum Anda... / Briefly describe your legal issue..."></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-gold w-100 py-3">
+                                    <i class="fab fa-whatsapp me-2"></i>
+                                    <span data-lang="id" class="on">Kirim via WhatsApp</span><span data-lang="en">Send
+                                        via WhatsApp</span>
+                                </button>
+                            </div>
+                            <div class="col-12">
+                                <small style="color:#666;">
+                                    <i class="fa fa-lock me-1" style="color:var(--gold)"></i>
+                                    <span data-lang="id" class="on">Informasi Anda dijaga kerahasiaannya
+                                        sepenuhnya.</span>
+                                    <span data-lang="en">Your information is kept completely confidential.</span>
+                                </small>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ======= FOOTER ======= -->
-<footer id="footer" class="py-5">
-    <div class="container">
-        <div class="row g-5">
-            <div class="col-lg-5">
-                <div class="d-flex align-items-center gap-2 mb-3">
-                    <img src="img/logo.png" alt="AA" style="height:52px;filter:drop-shadow(0 0 6px rgba(201,168,76,.35))">
-                    <div>
-                        <div class="brand-name">ANIS AMAR <span style="color:#fff">&amp; PARTNERS</span></div>
-                        <div class="brand-sub">Law Office</div>
-                    </div>
-                </div>
-                <p>
-                    <span data-lang="id" class="on">Advocate dan Konsultan Hukum profesional, terdaftar resmi di PERADI. Melayani klien di Tangerang Selatan dan sekitarnya dengan Integrity, Professional, Trusted.</span>
-                    <span data-lang="en">Professional Advocate and Legal Consultant, officially registered with PERADI. Serving clients in South Tangerang with Integrity, Professional, Trusted.</span>
-                </p>
-                <div class="d-flex gap-2 mt-3">
-                    <a href="https://wa.me/6288219472663" class="btn btn-gold btn-sm px-3" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#" class="btn btn-outline-gold btn-sm px-3"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="btn btn-outline-gold btn-sm px-3"><i class="fab fa-facebook-f"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <h6 class="text-white mb-3">
-                    <span data-lang="id" class="on">Navigasi</span><span data-lang="en">Navigation</span>
-                </h6>
-                <div class="d-flex flex-column gap-2">
-                    <a href="#home"><i class="bi bi-arrow-right me-1" style="color:var(--gold)"></i><span data-lang="id" class="on">Beranda</span><span data-lang="en">Home</span></a>
-                    <a href="#about"><i class="bi bi-arrow-right me-1" style="color:var(--gold)"></i><span data-lang="id" class="on">Tentang Kami</span><span data-lang="en">About Us</span></a>
-                    <a href="#services"><i class="bi bi-arrow-right me-1" style="color:var(--gold)"></i><span data-lang="id" class="on">Layanan</span><span data-lang="en">Services</span></a>
-                    <a href="#attorney"><i class="bi bi-arrow-right me-1" style="color:var(--gold)"></i><span data-lang="id" class="on">Advokat</span><span data-lang="en">Attorney</span></a>
-                    <a href="#testimonial"><i class="bi bi-arrow-right me-1" style="color:var(--gold)"></i>Testimonial</a>
-                    <a href="#contact"><i class="bi bi-arrow-right me-1" style="color:var(--gold)"></i><span data-lang="id" class="on">Kontak</span><span data-lang="en">Contact</span></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <h6 class="text-white mb-3">
-                    <span data-lang="id" class="on">Kontak</span><span data-lang="en">Contact</span>
-                </h6>
-                <div class="d-flex flex-column gap-2">
-                    <p><i class="fa fa-map-marker-alt me-2" style="color:var(--gold)"></i>Jl. Ampera Poncol RT 07/02, Kel. Babakan, Kec. Setu, Kota Tangsel 15315</p>
-                    <p><i class="fab fa-whatsapp me-2" style="color:var(--gold)"></i>088219472663</p>
-                    <p><i class="bi bi-clock me-2" style="color:var(--gold)"></i><span data-lang="id" class="on">Sen–Jum: 08.00–17.00 WIB</span><span data-lang="en">Mon–Fri: 08.00–17.00 WIB</span></p>
-                    <p><i class="fa fa-id-badge me-2" style="color:var(--gold)"></i>Anggota PERADI</p>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="footer-bottom" class="mt-5 py-3 text-center">
-        <p class="mb-0" style="color:#555;font-size:13px;">
-            &copy; 2026 <span style="color:var(--gold)">Anis Amar & Partners Law Office</span>.
-            <span data-lang="id" class="on">Hak Cipta Dilindungi.</span>
-            <span data-lang="en">All Rights Reserved.</span>
-        </p>
-    </div>
-</footer>
+    </section>
 
-<!-- Scripts -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="lib/wow/wow.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/counterup/counterup.min.js"></script>
-<script>
-// Init WOW
-new WOW().init();
+    <!-- ======= FOOTER ======= -->
+    <footer id="footer" class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <img src="img/logo.png" alt="AA"
+                            style="height:52px;filter:drop-shadow(0 0 6px rgba(201,168,76,.35))">
+                        <div>
+                            <div class="brand-name">ANIS AMAR <span style="color:#fff">&amp; PARTNERS</span></div>
+                            <div class="brand-sub">Law Firm</div>
+                        </div>
+                    </div>
+                    <p>
+                        <span data-lang="id" class="on">Mitra Hukum Tepercaya untuk Individu, Pelaku Usaha, dan
+                            Korporasi. <br/><br/> Kami memberikan layanan hukum yang profesional, strategis, dan berorientasi pada
+                            solusi dengan menjunjung tinggi integritas, kerahasiaan, serta kepentingan terbaik setiap
+                            klien. Didukung oleh tim advokat yang berpengalaman, kami berkomitmen memberikan
+                            pendampingan hukum yang tepat, efektif, dan dapat dipercaya dalam setiap proses penyelesaian
+                            perkara.<br><br>Integrity • Professionalism • Excellence • Trust </span>
+                        <span data-lang="en">Trusted Legal Partner for Individuals, Businesses, and Corporations. <br/><br/> We
+                            provide professional, strategic, and solution-oriented legal services while upholding
+                            integrity, confidentiality, and the best interests of every client. Supported by an
+                            experienced team of advocates, we are committed to delivering precise, effective, and
+                            trustworthy legal assistance.<br><br>Integrity • Professionalism • Excellence • Trust</span>
+                    </p>
+                    <div class="d-flex gap-2 mt-3">
+                        <a href="https://wa.me/6288219472663" class="btn btn-gold btn-sm px-3" target="_blank"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="btn btn-outline-gold btn-sm px-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-gold btn-sm px-3"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h6 class="text-white mb-3">
+                        <span data-lang="id" class="on">Navigasi</span><span data-lang="en">Navigation</span>
+                    </h6>
+                    <div class="d-flex flex-column gap-2">
+                        <a href="#home"><i class="bi bi-arrow-right me-1" style="color:var(--gold)"></i><span
+                                data-lang="id" class="on">Beranda</span><span data-lang="en">Home</span></a>
+                        <a href="#about"><i class="bi bi-arrow-right me-1" style="color:var(--gold)"></i><span
+                                data-lang="id" class="on">Tentang Kami</span><span data-lang="en">About Us</span></a>
+                        <a href="#services"><i class="bi bi-arrow-right me-1" style="color:var(--gold)"></i><span
+                                data-lang="id" class="on">Layanan</span><span data-lang="en">Services</span></a>
+                        <a href="#attorney"><i class="bi bi-arrow-right me-1" style="color:var(--gold)"></i><span
+                                data-lang="id" class="on">Advokat</span><span data-lang="en">Attorney</span></a>
+                        <a href="#testimonial"><i class="bi bi-arrow-right me-1"
+                                style="color:var(--gold)"></i>Testimonial</a>
+                        <a href="#contact"><i class="bi bi-arrow-right me-1" style="color:var(--gold)"></i><span
+                                data-lang="id" class="on">Kontak</span><span data-lang="en">Contact</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <h6 class="text-white mb-3">
+                        <span data-lang="id" class="on">Kontak</span><span data-lang="en">Contact</span>
+                    </h6>
+                    <div class="d-flex flex-column gap-2">
+                        <p><i class="fa fa-map-marker-alt me-2" style="color:var(--gold)"></i>Jl. Ampera Poncol RT
+                            07/02, Kel. Babakan, Kec. Setu, Kota Tangsel 15315</p>
+                        <p><i class="fab fa-whatsapp me-2" style="color:var(--gold)"></i>088219472663</p>
+                        <p><i class="bi bi-clock me-2" style="color:var(--gold)"></i><span data-lang="id"
+                                class="on">Sen–Jum: 08.00–17.00 WIB</span><span data-lang="en">Mon–Fri: 08.00–17.00
+                                WIB</span></p>
+                        <p><i class="fa fa-id-badge me-2" style="color:var(--gold)"></i>Anggota PERADI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-bottom" class="mt-5 py-3 text-center">
+            <p class="mb-0" style="color:#555;font-size:13px;">
+                &copy; 2026 <span style="color:var(--gold)">Anis Amar & Partners Law Firm</span>.
+                <span data-lang="id" class="on">Hak Cipta Dilindungi.</span>
+                <span data-lang="en">All Rights Reserved.</span>
+            </p>
+        </div>
+    </footer>
 
-// Spinner
-window.addEventListener('load', () => {
-    document.getElementById('spinner').style.opacity = '0';
-    document.getElementById('spinner').style.visibility = 'hidden';
-});
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script>
+        // Init WOW
+        new WOW().init();
 
-// Sticky navbar
-const navbar = document.getElementById('navbar');
-window.addEventListener('scroll', () => {
-    navbar.classList.toggle('sticky', window.scrollY > 50);
-    document.getElementById('backTop').classList.toggle('show', window.scrollY > 300);
-});
+        // Spinner
+        window.addEventListener('load', () => {
+            document.getElementById('spinner').style.opacity = '0';
+            document.getElementById('spinner').style.visibility = 'hidden';
+        });
 
-// Active nav link on scroll
-const sections = document.querySelectorAll('section[id]');
-const navLinks = document.querySelectorAll('.nav-link-custom');
-window.addEventListener('scroll', () => {
-    let current = '';
-    sections.forEach(s => {
-        if (window.scrollY >= s.offsetTop - 120) current = s.getAttribute('id');
-    });
-    navLinks.forEach(l => {
-        l.classList.remove('active');
-        if (l.getAttribute('href') === '#' + current) l.classList.add('active');
-    });
-});
+        // Sticky navbar
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('sticky', window.scrollY > 50);
+            document.getElementById('backTop').classList.toggle('show', window.scrollY > 300);
+        });
 
-// Bilingual
-function setLang(lang) {
-    document.querySelectorAll('[data-lang]').forEach(el => {
-        el.classList.toggle('on', el.getAttribute('data-lang') === lang);
-    });
-    localStorage.setItem('aa-lang', lang);
-    document.getElementById('btn-id').classList.toggle('active', lang === 'id');
-    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
-    document.documentElement.lang = lang;
-}
-setLang(localStorage.getItem('aa-lang') || 'id');
+        // Active nav link on scroll
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-link-custom');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(s => {
+                if (window.scrollY >= s.offsetTop - 120) current = s.getAttribute('id');
+            });
+            navLinks.forEach(l => {
+                l.classList.remove('active');
+                if (l.getAttribute('href') === '#' + current) l.classList.add('active');
+            });
+        });
 
-// WhatsApp form
-document.querySelector('.form-wrap .btn-gold').addEventListener('click', function() {
-    const name = document.querySelector('.form-wrap input[type="text"]').value;
-    const phone = document.querySelector('.form-wrap input[type="tel"]').value;
-    const area  = document.querySelector('.form-wrap select').value;
-    const msg   = document.querySelector('.form-wrap textarea').value;
-    if (!name || !msg) { alert('Nama dan pesan wajib diisi.'); return; }
-    const text = `Halo Anis Amar & Partners,\n\nNama: ${name}\nNo. HP: ${phone}\nBidang: ${area}\n\nPesan:\n${msg}`;
-    window.open('https://wa.me/6288219472663?text=' + encodeURIComponent(text), '_blank');
-});
-</script>
+        // Bilingual
+        function setLang(lang) {
+            document.querySelectorAll('[data-lang]').forEach(el => {
+                el.classList.toggle('on', el.getAttribute('data-lang') === lang);
+            });
+            localStorage.setItem('aa-lang', lang);
+            document.getElementById('btn-id').classList.toggle('active', lang === 'id');
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            document.documentElement.lang = lang;
+        }
+        setLang(localStorage.getItem('aa-lang') || 'id');
+
+        // WhatsApp form
+        document.querySelector('.form-wrap .btn-gold').addEventListener('click', function () {
+            const name = document.querySelector('.form-wrap input[type="text"]').value;
+            const phone = document.querySelector('.form-wrap input[type="tel"]').value;
+            const area = document.querySelector('.form-wrap select').value;
+            const msg = document.querySelector('.form-wrap textarea').value;
+            if (!name || !msg) { alert('Nama dan pesan wajib diisi.'); return; }
+            const text = `Halo Anis Amar & Partners,\n\nNama: ${name}\nNo. HP: ${phone}\nBidang: ${area}\n\nPesan:\n${msg}`;
+            window.open('https://wa.me/6288219472663?text=' + encodeURIComponent(text), '_blank');
+        });
+    </script>
 </body>
+
 </html>
