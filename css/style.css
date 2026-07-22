@@ -222,7 +222,7 @@ h5, h6 { font-weight: 600; }
 #attorney { background: #fff; }
 .attorney-photo-wrap { position: relative; }
 .attorney-photo-wrap img {
-    width: 100%; object-fit: cover; object-position: top;
+    width: 100%; object-fit: cover; object-position: center 40%;
     height: 440px; border-radius: 6px;
     border: 4px solid rgba(201,168,76,.2);
 }
